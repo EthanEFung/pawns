@@ -10,7 +10,7 @@ describe("Client:::", function() {
   });
 
   describe("The Board", function() {
-    const board = require("../client/js/index.js");
+    const board = require("../client/js/handlers.js");
 
     describe("the board coloring function", function() {
       it("should have a coloring function", function() {
